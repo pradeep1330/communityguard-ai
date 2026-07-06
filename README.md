@@ -33,7 +33,7 @@ It's not just a chatbot — it acts as a real-time assistant that gives immediat
 
 🚀 Live Demo
 
-communityguard-ai-production.up.railway.app
+[communityguard-ai-production.up.railway.app](https://communityguard-ai-production.up.railway.app)
 
 ----
 
