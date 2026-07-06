@@ -100,7 +100,7 @@ async function startServer() {
       // Wait, we can pass `history` to `ai.chats.create` as `history` parameter.
 
       const chat = ai.chats.create({
-        model: "gemini-2.0-flash",
+        model: "gemini-3.5-flash",
         config: {
           systemInstruction: systemInstruction,
           temperature: 0.2, // slightly deterministic for authoritative answers
@@ -114,7 +114,7 @@ async function startServer() {
       const contents = [...formattedHistory, { role: "user", parts: [{ text: message }] }];
 
       const response = await ai.models.generateContent({
-        model: "gemini-2.0-flash",
+        model: "gemini-3.5-flash",
         contents: contents,
         config: {
           systemInstruction: systemInstruction,
