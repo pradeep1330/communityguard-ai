@@ -1,0 +1,6 @@
+{
+  "name": "CommunityGuard AI",
+  "description": "An intelligent Decision Intelligence Assistant for community emergency response, healthcare access, and public safety.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
